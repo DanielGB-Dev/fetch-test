@@ -2,6 +2,9 @@
 
 This project was created with React using Typescript. It was made for the Fetch Frontend Take-Home Exercise. In this project you can log in to see a showcase of dogs you can adopt! Filter to see the dogs you want, select your favorites and then we'll give you a match.
 
+## You can use this link to try
+https://fetch-test.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
