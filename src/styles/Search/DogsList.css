@@ -1,0 +1,30 @@
+.dog-list-container {
+  padding: 24px;
+  margin-top: 16px;
+  background-color: #dfe0df;
+  border-radius: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.pag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.match-btn-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+@media (max-width: 768px) {
+  .dog-list-container {
+    justify-content: center;
+    align-items: center;
+  }
+}

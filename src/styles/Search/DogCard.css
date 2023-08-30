@@ -1,0 +1,56 @@
+.card-container {
+  background-color: #fff;
+  width: min-content;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.dog-img {
+  width: 196px;
+  height: 196px;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.name-age-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+h2 {
+  color: #ffa900;
+}
+
+.info-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info-container p {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 480px) {
+  .dog-img {
+    width: 96px;
+    height: 96px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  .info-container p {
+    font-size: 14px;
+  }
+}

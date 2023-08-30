@@ -1,0 +1,13 @@
+.md-container {
+  margin: 48px;
+}
+.match-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  height: 60vh;
+  margin-top: 16px;
+  background-color: #dfe0df;
+  border-radius: 16px;
+}

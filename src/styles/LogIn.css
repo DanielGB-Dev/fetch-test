@@ -1,0 +1,63 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.dog-img-container {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-img {
+  width: 50%;
+}
+
+.form-container {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffa900;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .dog-img-container {
+    display: none;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  form h1 {
+    width: min-content;
+  }
+}
+
+@media (max-width: 480px) {
+}

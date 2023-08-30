@@ -1,0 +1,40 @@
+.sp-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 48px 96px;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ffa900;
+  width: 100%;
+  display: flex;
+}
+
+.filters-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.log-out-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+}
+
+@media (max-width: 768px) {
+  .sp-container {
+    padding: 24px;
+  }
+
+  .filters-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
